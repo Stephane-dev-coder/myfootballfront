@@ -8,7 +8,7 @@
 
                 </v-card>
             </v-col>
-            <v-col cols="6" lg="4">
+            <v-col cols="12" md="7" lg="6" xl="5">
                 <p>L'histoire du football rend compte de la naissance et de l'évolution du football, un sport collectif né au milieu du xixe siècle en Grande-Bretagne et devenu au siècle suivant le plus populaire au monde.
                     <br>
                      Les racines que ce sport partage avec d'autres jeux de « football » remontent au Moyen Âge. Il est l'héritier de la soule médiévale, pratiqué notamment dans le Nord-Ouest de la France et dans les Îles Britanniques, et du Calcio florentin, des jeux caractérisés par leur violence et leur peu de règles.
