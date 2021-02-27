@@ -42,7 +42,7 @@
       class="mr-4"
       @click="envoyé"
     >
-      Validate
+      Valider
     </v-btn>
 
 
