@@ -2,7 +2,7 @@
     <v-container>
         <h1 class="title text-center my-10">Histoire du football</h1>
         <v-row align="start" justify="center">
-            <v-col cols="6" lg="3">
+            <v-col cols="12" md="7" lg="6" xl="5">
                 <v-card>
                     <v-img height="250" src="https://images.unsplash.com/photo-1600250395178-40fe752e5189?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"></v-img>
 
