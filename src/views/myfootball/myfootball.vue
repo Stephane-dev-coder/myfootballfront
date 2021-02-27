@@ -33,7 +33,7 @@
                             <v-icon color="green">mdi-account-multiple-outline</v-icon>
                         </v-list-item-icon>
                         <v-list-item-content name="regle">
-                            <v-list-item-title class="green--text">régles et cathegories sportives</v-list-item-title>
+                            <v-list-item-title class="green--text">régles et catégories sportives</v-list-item-title>
                         </v-list-item-content>
                     </v-list-item>
                     <v-list-item link @click="() => activePage != 4 ? this.$router.push('/myfootball/coach') : null">
@@ -87,6 +87,7 @@
             <router-view></router-view>
         </v-main>
     </div>
+    
 </template>
 
 <script>
