@@ -2,14 +2,14 @@
     <v-container>
         <h1 class="title text-center my-10">Actualité du foot</h1>
         <v-row align="start" justify="center">
-            <v-col cols="6" lg="3">
+            <v-col cols="12" md="7" lg="6" xl="5">
                 <v-card>
-                    <v-img height="350" src="https://1.bp.blogspot.com/-32X2NQg_SvY/XDdtp-iZm7I/AAAAAAAByCE/Ock5Z5WMWTkwrPUkDJ-gAAfQHtq5UKtIwCLcBGAs/s1600/adidas-nike-puma-each-brands-top-clubs%2B%25284%2529.jpg"></v-img>
+                    <v-img height="500" src="https://1.bp.blogspot.com/-32X2NQg_SvY/XDdtp-iZm7I/AAAAAAAByCE/Ock5Z5WMWTkwrPUkDJ-gAAfQHtq5UKtIwCLcBGAs/s1600/adidas-nike-puma-each-brands-top-clubs%2B%25284%2529.jpg"></v-img>
 
                     <v-card-title class="subtitle-2">Nike</v-card-title>
                 </v-card>
             </v-col>
-            <v-col cols="6" lg="4">
+            <v-col cols="12" md="7" lg="6" xl="5">
                 <h1>Nike un sponsor hors normes</h1>
                 <br>    
                 <p>En partenariat avec Nike depuis 2010, l'équipe de France a décidé de prolonger son contrat avec le géant américain jusqu'en 2026. Getty Images
@@ -21,7 +21,7 @@
         </v-row>
         <br>
         <v-row class="mt-6" align="start" justify="center">
-            <v-col cols="6" lg="4">
+            <v-col cols="12" md="7" lg="6" xl="5">
                  <h1>Bayern Munich : le très courtisé Jamal Musiala a fait son choix</h1>
                     <br>
                     <h2>Révélation en club, surprise en sélection ?</h2>
@@ -31,9 +31,9 @@
                     International Espoirs anglais (2 capes, 1 but), le natif de Stuttgart a donc décidé d'opter pour la Nationalmannschaft. Joachim Löw l'avait rencontré en janvier pour lui faire part de son envie de compter sur lui, évoquant même une possible convocation pour les prochains matches de préparation du mois de mars, une des dernières grandes occasions de se montrer avant l'Euro. Ses partenaires au Bayern Joshua Kimmich et Serge Gnabry ont également fait le forcing au quotidien. Et cela a payé. On n'a sans doute pas fini d'entendre parler de Jamal Musiala, qui, vendredi, pour ses 18 ans, devrait signer son premier contrat professionnel et ainsi sceller son avenir sur le moyen terme avec les pensionnaires de l'Allianz Arena.
                  </p>   
             </v-col>
-            <v-col cols="6" lg="3">
+            <v-col cols="12" md="7" lg="6" xl="5">
                 <v-card>
-                    <v-img height="250" src="https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg):focal(1626x454:1628x452)/origin-imgresizer.eurosport.com/2021/02/23/3000915-61574028-2560-1440.jpg"></v-img>
+                    <v-img height="500" src="https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg):focal(1626x454:1628x452)/origin-imgresizer.eurosport.com/2021/02/23/3000915-61574028-2560-1440.jpg"></v-img>
 
                     <v-card-title class="subtitle-2">Bayern Munich</v-card-title>
                 </v-card>
@@ -41,14 +41,14 @@
         </v-row>
         <br>
         <v-row class="mt-6" align="start" justify="center">
-            <v-col cols="6" lg="3">
+            <v-col cols="12" md="7" lg="6" xl="5">
                 <v-card>
-                    <v-img height="250" src="https://medias.lequipe.fr/img-photo-jpg/coach-pep-guardiola-of-manchester-city-during-the-uefa-champions-league-round-of-16-first-leg-match/1500000001366639/4:0%2C2500:1664-1000-666-70/53908.jpg"></v-img>
+                    <v-img height="500" src="https://medias.lequipe.fr/img-photo-jpg/coach-pep-guardiola-of-manchester-city-during-the-uefa-champions-league-round-of-16-first-leg-match/1500000001366639/4:0%2C2500:1664-1000-666-70/53908.jpg"></v-img>
 
                     <v-card-title class="subtitle-2">Pep Guardiola</v-card-title>
                 </v-card>
             </v-col>
-            <v-col cols="6" lg="4">
+            <v-col cols="12" md="7" lg="6" xl="5">
                 <h1>Depuis un changement tactique de Pep Guardiola, Manchester City écrase tout sur son passage</h1>
                 <br>
                 <p>Il y a deux mois, Pep Guardiola a écarté quelques cadres et imposé de nouveaux préceptes tactiques. Depuis, le leader de la Premier League reste sur 18 succès d'affilée.
@@ -57,29 +57,29 @@
             </v-col>
         </v-row>
          <v-row class="mt-6" align="start" justify="center">
-            <v-col cols="6" lg="4">
+             <v-col cols="12" md="7" lg="6" xl="5">
                 <h1>Un doublé de Wendie Renard permet aux Bleues de remporter une nouvelle victoire en amical contre la Suisse</h1>
                 <br>
                 <h3>Deux buts de Wendie Renard ont permis à l'équipe de France femmes de s'imposer contre la Suisse (2-0), à Metz, sur le même score que trois jours plus tôt face au même adversaire.</h3>
                 <br>
                  <p>Après avoir aligné un 3-4-3 inédit depuis novembre 2018 samedi, lors du premier duel contre la Suisse (2-0), Corinne Diacre a dessiné un 4-4-2 ce mardi pour le second test face aux Helvètes, un schéma qu'elle n'avait plus utilisé depuis le huitième de finale de Coupe du monde contre le Brésil (2-1 a.p.) en juin 2019. Les Bleues ont arraché une courte victoire (2-0), face à un adversaire bien organisé et qui a réussi à imposer un faux rythme, sans être resplendissant, avec un doublé de Wendie Renard.</p>
             </v-col>
-            <v-col cols="6" lg="3">
+            <v-col cols="12" md="7" lg="6" xl="5">
                 <v-card>
-                    <v-img height="250" src="https://images.sudouest.fr/2019/05/21/5ce560a966a4bd83595ac1f3/widescreen/1000x500/l-equipe-de-france-jouera.jpg?v1"></v-img>
+                    <v-img height="500" src="https://images.sudouest.fr/2019/05/21/5ce560a966a4bd83595ac1f3/widescreen/1000x500/l-equipe-de-france-jouera.jpg?v1"></v-img>
 
                     <v-card-title class="subtitle-2">Equipe de France (feminine)</v-card-title>
                 </v-card>
             </v-col>
         </v-row>
          <v-row class="mt-6" align="start" justify="center">
-            <v-col cols="6" lg="3">
+            <v-col cols="12" md="7" lg="6" xl="5">
                 <v-card>
-                    <v-img height="250" src="https://www.topmercato.com/wp-content/uploads/2020-10-10-zinedine-zidane.jpg"></v-img>
+                    <v-img height="500" src="https://www.topmercato.com/wp-content/uploads/2020-10-10-zinedine-zidane.jpg"></v-img>
 
                 </v-card>
             </v-col>
-            <v-col cols="6" lg="4">
+            <v-col cols="12" md="7" lg="6" xl="5">
                 <h1>Atalanta-Real Madrid : les compos de départ probables</h1>
                 <h6>Publié le mercredi 24 février 2021 à 14h03 par Camille Fischbach</h6>
                 <br>

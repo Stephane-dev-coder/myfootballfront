@@ -84,5 +84,5 @@ router.beforeEach((to, from, next) => {
 		next()
 	}
 })
-
+//si t'est pas autentifié tu rentre pas 
 export default router

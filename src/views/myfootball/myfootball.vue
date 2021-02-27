@@ -20,7 +20,7 @@
                             <v-list-item-title class="green--text">Actualité du sport</v-list-item-title>
                         </v-list-item-content>
                     </v-list-item>
-                    <v-list-item link @click="() => activePage != 2 ? this.$router.push('/myfootball/hist') : null">
+                    <v-list-item link @click="() => activePage != 1 ? this.$router.push('/myfootball/hist') : null">
                         <v-list-item-icon>
                             <v-icon color="green">mdi-clipboard-text</v-icon>
                         </v-list-item-icon>
@@ -28,7 +28,7 @@
                             <v-list-item-title class="green--text">Histoire du sport</v-list-item-title>
                         </v-list-item-content>
                     </v-list-item>
-                    <v-list-item link @click="() => activePage != 3 ? this.$router.push('/myfootball/regle') : null">
+                    <v-list-item link @click="() => activePage != 2 ? this.$router.push('/myfootball/regle') : null">
                         <v-list-item-icon>
                             <v-icon color="green">mdi-account-multiple-outline</v-icon>
                         </v-list-item-icon>
@@ -36,7 +36,7 @@
                             <v-list-item-title class="green--text">régles et catégories sportives</v-list-item-title>
                         </v-list-item-content>
                     </v-list-item>
-                    <v-list-item link @click="() => activePage != 4 ? this.$router.push('/myfootball/coach') : null">
+                    <v-list-item link @click="() => activePage != 3 ? this.$router.push('/myfootball/coach') : null">
                         <v-list-item-icon>
                             <v-icon color="green">mdi-nature-people</v-icon>
                         </v-list-item-icon>
@@ -44,7 +44,7 @@
                             <v-list-item-title class="green--text">Les entraineurs</v-list-item-title>
                         </v-list-item-content>
                     </v-list-item>
-                    <v-list-item link @click="() => activePage != 5 ? this.$router.push('/myfootball/cdm') : null">
+                    <v-list-item link @click="() => activePage != 4 ? this.$router.push('/myfootball/cdm') : null">
                         <v-list-item-icon>
                             <v-icon color="green">mdi-rss</v-icon>
                         </v-list-item-icon>
@@ -52,7 +52,7 @@
                             <v-list-item-title class="green--text">Calendrier des matchs</v-list-item-title>
                         </v-list-item-content>
                     </v-list-item>
-                    <v-list-item link @click="() => activePage != 6 ? this.$router.push('/myfootball/lieu') : null">
+                    <v-list-item link @click="() => activePage != 5 ? this.$router.push('/myfootball/lieu') : null">
                         <v-list-item-icon>
                             <v-icon color="green">mdi-account-multiple-outline</v-icon>
                         </v-list-item-icon>
@@ -60,7 +60,7 @@
                             <v-list-item-title class="green--text">Lieu et jours d'entrainement</v-list-item-title>
                         </v-list-item-content>
                     </v-list-item>
-                    <v-list-item link @click="() => activePage != 1 ? this.$router.push('/myfootball/contact') : null">
+                    <v-list-item link @click="() =>activePage != 6 ? this.$router.push('/myfootball/contact') : null">
                         <v-list-item-icon>
                             <v-icon color="green">mdi-check</v-icon>
                         </v-list-item-icon>
@@ -100,21 +100,22 @@ export default {
     },
     computed: {
         activePage () {
+           // console.log(this.$route.name) //debug
             switch (this.$route.name) {
                 case 'article':
                     return 0
                 case 'contact':
-                    return 1
-                case 'hist':
-                    return 2
-                case 'regle':
-                    return 3
-                case 'coach':
-                    return 4
-                case 'cdm':
-                    return 5
-                case 'lieu':
                     return 6
+                case 'hist':
+                    return 1
+                case 'regle':
+                    return 2
+                case 'coach':
+                    return 3
+                case 'cdm':
+                    return 4
+                case 'lieu':
+                    return 5
                 default:
                     return 0
             }
