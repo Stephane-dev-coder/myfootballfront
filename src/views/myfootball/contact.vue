@@ -11,7 +11,7 @@
       v-model="name"
       :counter="10"
       :rules="nameRules"
-      label="Name"
+      label="Nom"
       required
     ></v-text-field>
 
@@ -25,14 +25,14 @@
         <v-textarea
           name="input-7-1"
           label="Default style"
-          value="The Woodman set to work at once, and so sharp was his axe that the tree was soon chopped nearly through."
+          value="Ecrivez ici..."
           hint="Hint text"
         ></v-textarea>
 
     <v-checkbox
       v-model="checkbox"
-      :rules="[v => !!v || 'You must agree to continue!']"
-      label="Do you agree?"
+      :rules="[v => !!v || 'Vous devez accepter de continuer!']"
+      label="Êtes-vous d'accord?"
       required
     ></v-checkbox>
 
@@ -40,7 +40,7 @@
       :disabled="!valid"
       color="success"
       class="mr-4"
-      @click="validate"
+      @click="envoyé"
     >
       Validate
     </v-btn>
@@ -63,13 +63,13 @@
       valid: true,
       name: '',
       nameRules: [
-        v => !!v || 'Name is required',
-        v => (v && v.length <= 10) || 'Name must be less than 10 characters',
+        v => !!v || 'Le nom est requis',
+        v => (v && v.length <= 10) || 'Le nom doit comporter moins de 10 caractères',
       ],
       email: '',
       emailRules: [
-        v => !!v || 'E-mail is required',
-        v => /.+@.+\..+/.test(v) || 'E-mail must be valid',
+        v => !!v || 'E-mail est requis',
+        v => /.+@.+\..+/.test(v) || 'E-mail non valide',
       ],
       select: null,
  
