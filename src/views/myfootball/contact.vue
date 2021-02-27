@@ -24,7 +24,7 @@
 
         <v-textarea
           name="input-7-1"
-          label="Default style"
+          label=""
           value="Ecrivez ici..."
           hint="Hint text"
         ></v-textarea>

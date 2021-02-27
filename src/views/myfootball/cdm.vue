@@ -36,8 +36,8 @@
 <script>
 export default {
     data(){
-        return {liste: [{text : "equipe à domicile",value:"A"},{text : "equipe à l'exterieur",value:"B"},{text : "Date",value:"date"}],
-        equipe: [{A : "PSG",B : "TFC", date : "1er janvier 2021"},{A : "TFC",B : "PSG", date : "5 janvier 2021"},{A : "OL",B : "PSG", date : "10 janvier 2021"},{A : "PSG",B : "OL", date : "9 janvier 2021"},{A : "OM",B : "PSG", date : "7 fevrier 2021"},{A : "PSG",B : "OM", date : "13 septembre 2020"}],search: '',
+        return {liste: [{text : "Equipe à domicile",value:"A"},{text : "Equipe à l'exterieur",value:"B"},{text : "Date",value:"date"},{text : "Score",value:"sc"}],
+        equipe: [{A : "PSG",B : "TFC", date : "1er janvier 2021", sc :"5-0"},{A : "TFC",B : "PSG", date : "5 janvier 2021", sc :"2-0"},{A : "OL",B : "PSG", date : "10 janvier 2021", sc:"1-0"},{A : "PSG",B : "OL", date : "9 janvier 2021",sc: "2-0"},{A : "OM",B : "PSG", date : "7 fevrier 2021", sc: "0-2"},{A : "PSG",B : "OM", date : "13 septembre 2020",sc : "0-1"}],search: '',
         }
 
     },

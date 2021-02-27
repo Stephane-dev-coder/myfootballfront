@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <h1 class="title text-center my-10">Regle et cathegories sportives</h1>
+        <h1 class="title text-center my-10">Regles et catégories sportives</h1>
         <v-row align="start" justify="center">
             <v-col cols="12" lg="3">
                 <v-card>

@@ -10,7 +10,7 @@
                 </v-card>
             </v-col>
             <v-col cols="6" lg="4">
-                <h1>nike un sponsor hors normes</h1>
+                <h1>Nike un sponsor hors normes</h1>
                 <br>    
                 <p>En partenariat avec Nike depuis 2010, l'équipe de France a décidé de prolonger son contrat avec le géant américain jusqu'en 2026. Getty Images
                     Nike va continuer d'équiper l'équipe de France de football. La marque à la virgule, dont le contrat se terminait en 2018, a décidé de poursuivre l'aventure bleue jusqu'en 2026 comme l'annonce un communiqué de la fédération française de football (FFF).

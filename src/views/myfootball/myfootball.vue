@@ -41,7 +41,7 @@
                             <v-icon color="green">mdi-nature-people</v-icon>
                         </v-list-item-icon>
                         <v-list-item-content name="coach">
-                            <v-list-item-title class="green--text">les entraineurs</v-list-item-title>
+                            <v-list-item-title class="green--text">Les entraineurs</v-list-item-title>
                         </v-list-item-content>
                     </v-list-item>
                     <v-list-item link @click="() => activePage != 5 ? this.$router.push('/myfootball/cdm') : null">
@@ -49,7 +49,7 @@
                             <v-icon color="green">mdi-rss</v-icon>
                         </v-list-item-icon>
                         <v-list-item-content name="cdm">
-                            <v-list-item-title class="green--text">calendrier des matchs</v-list-item-title>
+                            <v-list-item-title class="green--text">Calendrier des matchs</v-list-item-title>
                         </v-list-item-content>
                     </v-list-item>
                     <v-list-item link @click="() => activePage != 6 ? this.$router.push('/myfootball/lieu') : null">
