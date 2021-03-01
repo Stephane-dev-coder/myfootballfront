@@ -68,6 +68,13 @@
                             <v-list-item-title class="green--text">Formulaire de contact</v-list-item-title>
                         </v-list-item-content>
                     </v-list-item>
+                          <v-switch
+        v-model="$vuetify.theme.dark"
+        hint=""
+        inset
+        label ="Mode sombre"
+        persistent-hint
+      ></v-switch>
                 </v-list-item-group>
             </v-list>
             <template v-slot:append>
