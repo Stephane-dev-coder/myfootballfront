@@ -26,7 +26,7 @@
           name="input-7-1"
           label=""
           value="Ecrivez ici..."
-          hint="Hint text"
+          hint="zone de texte"
         ></v-textarea>
 
     <v-checkbox

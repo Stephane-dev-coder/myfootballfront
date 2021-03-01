@@ -1,11 +1,10 @@
 <template>
     <v-container>
-        <h1 class="title text-center my-10">Actualité du foot</h1>
+     <h1 class="title text-center my-10">Actualité du foot</h1>
         <v-row align="start" justify="center">
             <v-col cols="12" md="7" lg="6" xl="5">
                 <v-card>
-                    <v-img height="500" src="https://1.bp.blogspot.com/-32X2NQg_SvY/XDdtp-iZm7I/AAAAAAAByCE/Ock5Z5WMWTkwrPUkDJ-gAAfQHtq5UKtIwCLcBGAs/s1600/adidas-nike-puma-each-brands-top-clubs%2B%25284%2529.jpg"></v-img>
-
+                       <v-img height="500" src="https://1.bp.blogspot.com/-32X2NQg_SvY/XDdtp-iZm7I/AAAAAAAByCE/Ock5Z5WMWTkwrPUkDJ-gAAfQHtq5UKtIwCLcBGAs/s1600/adidas-nike-puma-each-brands-top-clubs%2B%25284%2529.jpg"></v-img>
                     <v-card-title class="subtitle-2">Nike</v-card-title>
                 </v-card>
             </v-col>

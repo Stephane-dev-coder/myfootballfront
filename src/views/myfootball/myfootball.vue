@@ -75,6 +75,13 @@
         label ="Mode sombre"
         persistent-hint
       ></v-switch>
+                                <v-switch
+        v-model="$"
+        hint="Attention"
+        inset
+        label ="Mode Animation (Beta)"
+        persistent-hint
+      ></v-switch>
                 </v-list-item-group>
             </v-list>
             <template v-slot:append>

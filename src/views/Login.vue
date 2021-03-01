@@ -14,7 +14,6 @@
                     >
                 Connexion Etablie
                 </v-snackbar>
-
                 <v-snackbar
                     :timeout="4000"
                     v-model="error"
