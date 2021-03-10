@@ -1,4 +1,4 @@
-<template> 
+<template>
     <div>
         <v-navigation-drawer v-model="drawer" clipped right app>
             <v-list dense nav>
@@ -77,7 +77,7 @@
       ></v-switch>
                                 <v-switch
         v-model="$"
-        hint="Attention"
+        hint="Attention(j'ai desactivé ce bouton)"
         inset
         label ="Mode Animation (Beta)"
         persistent-hint
@@ -101,8 +101,8 @@
             <router-view></router-view>
         </v-main>
     </div>
-    
 </template>
+
 
 <script>
 import { mapMutations } from 'vuex'
